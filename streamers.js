@@ -11,6 +11,36 @@
 
 const STREAMERS = [
   {
+    id: "s54",
+    channelName: "Eray",
+    character: "Şehmus", // ← karakter adı
+    platform: "kick",
+    channelId: "Eray",
+    profileUrl: "https://kick.com/eray",
+    avatar: "",
+    role: "Mafya Babası", // ← RP mesleği
+  },
+  {
+    id: "s55",
+    channelName: "Giigii_g",
+    character: "Lilya Asil",
+    platform: "kick",
+    channelId: "giigii_g",
+    profileUrl: "https://kick.com/giigii_g",
+    avatar: "",
+    role: "",
+  },
+  {
+    id: "s56",
+    channelName: "SachieBN",
+    character: "Aren Alkan",
+    platform: "kick",
+    channelId: "sachiebn",
+    profileUrl: "https://kick.com/sachiebn",
+    avatar: "",
+    role: "Serbest Sanatçı",
+  },
+  {
     id: "s1",
     channelName: "6bir",
     character: "", // ← karakter adı
@@ -282,8 +312,8 @@ const STREAMERS = [
   },
   {
     id: "s28",
-    channelName: "ny",
-    character: "",
+    channelName: "Nymvia",
+    character: "Asya Arel",
     platform: "kick",
     channelId: "nymvia",
     profileUrl: "https://kick.com/nymvia",
@@ -333,12 +363,12 @@ const STREAMERS = [
   {
     id: "s33",
     channelName: "pinar",
-    character: "",
+    character: "lâl",
     platform: "kick",
     channelId: "pinaroma",
     profileUrl: "https://kick.com/pinaroma",
     avatar: "",
-    role: "",
+    role: "Dövme Sanatçısı",
   },
   {
     id: "s34",
@@ -544,4 +574,4 @@ const STREAMERS = [
 
 // ─── Bildir formu bu adrese gider ────────────
 // Kendi mail adresini yaz!
-const CONTACT_EMAIL = "knglrp@gmail.com";
+const CONTACT_EMAIL = "cheriaverse@gmail.com";
