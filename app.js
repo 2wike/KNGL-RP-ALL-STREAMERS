@@ -72,7 +72,7 @@ async function fetchTwitch(s) {
 }
 
 async function fetchKick(s) {
-  const embed = `https://player.kick.com/${s.channelId}?autoplay=false&muted=true`;
+  const embed = `https://player.kick.com/${s.channelId}?autoplay=true&muted=true`;
   try {
     const r = await fetch(
       `https://kick.com/api/v2/channels/${s.channelId}/livestream`,
