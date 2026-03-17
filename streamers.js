@@ -10,16 +10,15 @@
 // =============================================
 
 const STREAMERS = [
-
   {
     id: "s1",
     channelName: "6bir",
-    character: "",        // ← karakter adı
+    character: "", // ← karakter adı
     platform: "kick",
     channelId: "alcaaf",
     profileUrl: "https://kick.com/alcaaf",
     avatar: "",
-    role: "",             // ← RP mesleği
+    role: "", // ← RP mesleği
   },
   {
     id: "s2",
@@ -273,11 +272,11 @@ const STREAMERS = [
   },
   {
     id: "s27",
-    channelName: "Sqaex35",
+    channelName: "SOLEM0",
     character: "",
-    platform: "twitch",
-    channelId: "sqaex35",
-    profileUrl: "https://twitch.tv/sqaex35",
+    platform: "kick",
+    channelId: "solem0",
+    profileUrl: "https://kick.com/solem0",
     avatar: "",
     role: "",
   },
@@ -531,7 +530,16 @@ const STREAMERS = [
     avatar: "",
     role: "",
   },
-
+  {
+    id: "s53",
+    channelName: "HobbitEmo",
+    character: "",
+    platform: "kick",
+    channelId: "hobbitemo",
+    profileUrl: "https://kick.com/hobbitemo",
+    avatar: "",
+    role: "",
+  },
 ];
 
 // ─── Bildir formu bu adrese gider ────────────
