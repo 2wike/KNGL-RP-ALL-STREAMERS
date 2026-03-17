@@ -15,7 +15,6 @@ window.addEventListener("load", () => {
   }, 2400);
 
   loadStreamers();
-  setInterval(loadStreamers, 60000);
 });
 
 // ─── LOAD ────────────────────────────────────
@@ -30,7 +29,6 @@ async function loadStreamers() {
     (merged.isLive ? live : offline).push(merged);
   }
 
-  live.sort((a, b) => b.viewers - a.viewers);
   renderAll(live, offline);
   updateNav(live.length);
 }
@@ -174,7 +172,6 @@ function makeCard(s, index, isLive) {
         ${
           isLive
             ? `
-          <div class="viewer-info">${viewerHtml}</div>
           <div class="live-indicator"><span class="live-dot-sm"></span> Canlı</div>
         `
             : `<div class="offline-badge">Çevrimdışı</div>`
