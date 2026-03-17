@@ -103,12 +103,12 @@ const STREAMERS = [
   {
     id: "s7",
     channelName: "Yiğit",
-    character: "",
+    character: "Isaiah 'SLİM' Colon",
     platform: "kick",
     channelId: "yyiido",
     profileUrl: "https://kick.com/yyiido",
     avatar: "",
-    role: "",
+    role: "Silah Kaçakçısı",
   },
   {
     id: "s8",
