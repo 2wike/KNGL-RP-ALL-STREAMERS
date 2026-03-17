@@ -11,7 +11,7 @@
 
 const STREAMERS = [
   {
-    id: "s54",
+    id: "a1",
     channelName: "Eray",
     character: "Şehmus", // ← karakter adı
     platform: "kick",
@@ -21,7 +21,7 @@ const STREAMERS = [
     role: "Mafya Babası", // ← RP mesleği
   },
   {
-    id: "s55",
+    id: "a2",
     channelName: "Giigii_g",
     character: "Lilya Asil",
     platform: "kick",
@@ -31,7 +31,37 @@ const STREAMERS = [
     role: "",
   },
   {
-    id: "s56",
+    id: "a3",
+    channelName: "HobbitEmo",
+    character: "",
+    platform: "kick",
+    channelId: "hobbitemo",
+    profileUrl: "https://kick.com/hobbitemo",
+    avatar: "",
+    role: "",
+  },
+  {
+    id: "a4",
+    channelName: "lynesuar",
+    character: "Amelia",
+    platform: "kick",
+    channelId: "lynesuar",
+    profileUrl: "https://kick.com/lynesuar",
+    avatar: "",
+    role: "Bean Manager",
+  },
+  {
+    id: "a5",
+    channelName: "Flomore",
+    character: "Sami Ozan",
+    platform: "kick",
+    channelId: "flomore",
+    profileUrl: "https://kick.com/flomore",
+    avatar: "",
+    role: "Manipülatif/Dolandırıcı",
+  },
+  {
+    id: "a6",
     channelName: "SachieBN",
     character: "Aren Alkan",
     platform: "kick",
@@ -103,12 +133,12 @@ const STREAMERS = [
   {
     id: "s7",
     channelName: "Yiğit",
-    character: "Isaiah 'SLİM' Colon",
+    character: "",
     platform: "kick",
     channelId: "yyiido",
     profileUrl: "https://kick.com/yyiido",
     avatar: "",
-    role: "Silah Kaçakçısı",
+    role: "",
   },
   {
     id: "s8",
@@ -557,16 +587,6 @@ const STREAMERS = [
     platform: "kick",
     channelId: "kl3sty",
     profileUrl: "https://kick.com/kl3sty",
-    avatar: "",
-    role: "",
-  },
-  {
-    id: "s53",
-    channelName: "HobbitEmo",
-    character: "",
-    platform: "kick",
-    channelId: "hobbitemo",
-    profileUrl: "https://kick.com/hobbitemo",
     avatar: "",
     role: "",
   },
