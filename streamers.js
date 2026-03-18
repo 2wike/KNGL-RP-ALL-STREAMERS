@@ -133,12 +133,12 @@ const STREAMERS = [
   {
     id: "s1",
     channelName: "6bir",
-    character: "", // ← karakter adı
+    character: "Himmet Sağabasan", // ← karakter adı
     platform: "kick",
-    channelId: "alcaaf",
-    profileUrl: "https://kick.com/alcaaf",
+    channelId: "6bir",
+    profileUrl: "https://kick.com/6bir",
     avatar: "",
-    role: "", // ← RP mesleği
+    role: "Polis Akademisi Öğrencisi", // ← RP mesleği
   },
   {
     id: "s2",
