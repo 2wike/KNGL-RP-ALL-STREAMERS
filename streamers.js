@@ -640,6 +640,26 @@ const STREAMERS = [
     avatar: "",
     role: "",
   },
+  {
+    id: "s56",
+    channelName: "Emrezf",
+    character: "Doruk Altın",
+    platform: "kick",
+    channelId: "emrezf",
+    profileUrl: "https://kick.com/emrezf",
+    avatar: "",
+    role: "Sanatın Oğlu",
+  },
+  {
+    id: "s57",
+    channelName: "envercey",
+    character: "Evren Dolunay",
+    platform: "kick",
+    channelId: "emrezf",
+    profileUrl: "https://kick.com/envercey",
+    avatar: "",
+    role: "Falcı & DJ",
+  },
 ];
 
 // ─── Bildir formu bu adrese gider ────────────
