@@ -18,7 +18,7 @@ const STREAMERS = [
     channelId: "Eray",
     profileUrl: "https://kick.com/eray",
     avatar: "",
-    role: "Mafya Babası", // ← RP mesleği
+    role: "İllegal Girişimci", // ← RP mesleği
   },
   {
     id: "a2",
@@ -48,7 +48,7 @@ const STREAMERS = [
     channelId: "cappture",
     profileUrl: "https://kick.com/cappture",
     avatar: "",
-    role: "",
+    role: "Laz Taksici",
   },
   {
     id: "s7",
@@ -58,7 +58,7 @@ const STREAMERS = [
     channelId: "yyiido",
     profileUrl: "https://kick.com/yyiido",
     avatar: "",
-    role: "",
+    role: "Silah Kaçakçısı",
   },
   {
     id: "a8",
@@ -333,12 +333,12 @@ const STREAMERS = [
   {
     id: "s25",
     channelName: "Chemosh",
-    character: "",
+    character: "Bade Yıldırım",
     platform: "kick",
     channelId: "chemossh",
     profileUrl: "https://kick.com/chemossh",
     avatar: "",
-    role: "",
+    role: "Psikolog & Pub Managment",
   },
   {
     id: "s26",
