@@ -68,7 +68,7 @@ const STREAMERS = [
     channelId: "mrsrussell",
     profileUrl: "https://kick.com/mrsrussell",
     avatar: "",
-    role: "Bean Manager",
+    role: "Hookies Manager",
   },
   {
     id: "a3",
