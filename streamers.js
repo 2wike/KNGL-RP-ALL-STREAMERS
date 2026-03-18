@@ -615,7 +615,7 @@ const STREAMERS = [
     channelName: "Çorumlu Reis",
     character: "Namık Başaran",
     platform: "kick",
-    channelId: "corumlu_reiz",
+    channelId: "corumlu-reiz",
     profileUrl: "https://kick.com/corumlu-reiz",
     avatar: "",
     role: "",
