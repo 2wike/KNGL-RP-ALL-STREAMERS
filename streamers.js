@@ -1220,7 +1220,7 @@ const FRAMES = {
   cappture: "caution",
   eray: "gang",
   yyiido: "blood",
-  mrsrussell: "galaxy",
+  mrsrussell: "venom",
 };
 
 const CONTACT_EMAIL = "mehmetcem32@gmail.com";
