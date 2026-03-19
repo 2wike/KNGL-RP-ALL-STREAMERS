@@ -450,16 +450,6 @@ const STREAMERS = [
     "role": ""
   },
   {
-    "id": "249",
-    "channelName": "sqaex35",
-    "character": "Kaan Arslan",
-    "platform": "twitch",
-    "channelId": "sqaex35",
-    "profileUrl": "https://www.twitch.tv/sqaex35",
-    "avatar": "https://imgproxy.mehmetcem32.workers.dev/?url=https%3A%2F%2Fcdn.discordapp.com%2Favatars%2F977268128658653224%2Fa_899830aba925d42622e9463b3d345aec.png%3Fsize%3D256",
-    "role": ""
-  },
-  {
     "id": "243",
     "channelName": ".kistey.",
     "character": "Umay Kutay",
@@ -1047,16 +1037,6 @@ const STREAMERS = [
     "channelId": "mhrmexe",
     "profileUrl": "https://kick.com/mhrmexe",
     "avatar": "https://imgproxy.mehmetcem32.workers.dev/?url=https%3A%2F%2Fcdn.discordapp.com%2Favatars%2F1379830410128658442%2Fa_22b437e831f4c4f6c4bd0bced52126cc.png%3Fsize%3D256",
-    "role": ""
-  },
-  {
-    "id": "14",
-    "channelName": "xupac",
-    "character": "Akın Safi",
-    "platform": "twitch",
-    "channelId": "xupac",
-    "profileUrl": "https://www.twitch.tv/xupac",
-    "avatar": "https://imgproxy.mehmetcem32.workers.dev/?url=https%3A%2F%2Fcdn.discordapp.com%2Favatars%2F254991895263051777%2Fd375efdd88dd7d47fbd527b0d29e3119.png%3Fsize%3D256",
     "role": ""
   },
   {
