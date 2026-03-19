@@ -1253,3 +1253,142 @@ body {
     background-position: 100% 100%;
   }
 }
+/* ─── GANG ── */
+.streamer-card.frame-gang {
+  border: 2px solid transparent;
+  position: relative;
+}
+.streamer-card.frame-gang::before {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  border-radius: 12px;
+  background: linear-gradient(90deg, #ff0000, #1a0000, #ff0000, #1a0000);
+  background-size: 300% 100%;
+  animation: gangMove 1s linear infinite;
+  z-index: -1;
+}
+@keyframes gangMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 300% 50%;
+  }
+}
+
+/* ─── BLOOD ── */
+.streamer-card.frame-blood {
+  border: 2px solid #cc0000;
+  position: relative;
+  animation: bloodDrip 1.5s ease-in-out infinite;
+}
+@keyframes bloodDrip {
+  0% {
+    box-shadow:
+      0 0 8px #cc000088,
+      0 4px 16px #cc000044;
+    border-color: #cc0000;
+  }
+  50% {
+    box-shadow:
+      0 0 20px #ff0000aa,
+      0 8px 32px #cc000088;
+    border-color: #ff0000;
+  }
+  100% {
+    box-shadow:
+      0 0 8px #cc000088,
+      0 4px 16px #cc000044;
+    border-color: #cc0000;
+  }
+}
+
+/* ─── DARK ── */
+.streamer-card.frame-dark {
+  border: 2px solid transparent;
+  position: relative;
+}
+.streamer-card.frame-dark::before {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  border-radius: 12px;
+  background: linear-gradient(90deg, #1a0033, #8b00ff, #4b0082, #1a0033);
+  background-size: 300% 100%;
+  animation: darkMove 3s ease-in-out infinite;
+  z-index: -1;
+}
+@keyframes darkMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* ─── GLITCH ── */
+.streamer-card.frame-glitch {
+  border: 2px solid #00ff00;
+  animation: glitchAnim 0.8s steps(1) infinite;
+}
+@keyframes glitchAnim {
+  0% {
+    border-color: #00ff00;
+    box-shadow:
+      -2px 0 #ff00ff,
+      2px 0 #00ffff;
+  }
+  25% {
+    border-color: #ff00ff;
+    box-shadow:
+      2px 0 #00ff00,
+      -2px 0 #ffff00;
+  }
+  50% {
+    border-color: #00ffff;
+    box-shadow:
+      -2px 0 #ff0000,
+      2px 0 #00ff00;
+  }
+  75% {
+    border-color: #ffff00;
+    box-shadow:
+      2px 0 #ff00ff,
+      -2px 0 #00ffff;
+  }
+  100% {
+    border-color: #00ff00;
+    box-shadow:
+      -2px 0 #ff00ff,
+      2px 0 #00ffff;
+  }
+}
+
+/* ─── WANTED ── */
+.streamer-card.frame-wanted {
+  border: 2px solid transparent;
+  position: relative;
+}
+.streamer-card.frame-wanted::before {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  border-radius: 12px;
+  background: linear-gradient(90deg, #ff4500, #ffd700, #ff4500, #ffd700);
+  background-size: 300% 100%;
+  animation: wantedMove 0.6s linear infinite;
+  z-index: -1;
+}
+@keyframes wantedMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 300% 50%;
+  }
+}

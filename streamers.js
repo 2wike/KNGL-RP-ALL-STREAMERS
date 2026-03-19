@@ -1195,6 +1195,7 @@ const PRIORITY = [
   //"mhrmexe",
   //"urganci",
   "eray",
+  "yyiido",
   "cappture",
 ];
 
@@ -1206,6 +1207,7 @@ const FRAMES = {
   // "urganci": "galaxy",
   cappture: "caution",
   eray: "fire",
+  yyiido: "blood",
 };
 
 const CONTACT_EMAIL = "mehmetcem32@gmail.com";
