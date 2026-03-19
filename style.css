@@ -1265,7 +1265,7 @@ body {
   border-radius: 12px;
   background: linear-gradient(90deg, #ff0000, #1a0000, #ff0000, #1a0000);
   background-size: 300% 100%;
-  animation: gangMove 1s linear infinite;
+  animation: gangMove 4s linear infinite;
   z-index: -1;
 }
 @keyframes gangMove {
