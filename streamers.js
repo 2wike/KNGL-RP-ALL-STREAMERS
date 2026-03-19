@@ -115,7 +115,7 @@ const STREAMERS = [
     channelName: "Spyks",
     character: "Recep Sertel",
     platform: "kick",
-    channelId: "iezom",
+    channelId: "spyks26",
     profileUrl: "https://kick.com/spyks26",
     avatar: "",
     role: "Dövme Sanatçısı",
@@ -403,12 +403,12 @@ const STREAMERS = [
   {
     id: "s29",
     channelName: "Berru",
-    character: "",
+    character: "Mira Aktaş",
     platform: "kick",
     channelId: "berrusyy",
     profileUrl: "https://kick.com/berrusyy",
     avatar: "",
-    role: "",
+    role: "The Last Light Pub Bartender",
   },
   {
     id: "s30",
