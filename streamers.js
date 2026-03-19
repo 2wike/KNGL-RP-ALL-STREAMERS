@@ -1206,7 +1206,7 @@ const FRAMES = {
   // "mhrmexe": "fire",
   // "urganci": "galaxy",
   cappture: "caution",
-  eray: "fire",
+  eray: "gang",
   yyiido: "blood",
 };
 
