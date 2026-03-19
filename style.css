@@ -570,10 +570,15 @@ body {
   font-family: var(--font-display);
   font-size: 14px;
   font-weight: 700;
-  color: var(--text-primary);
+  color: #ffffff;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
 .character-name {
@@ -581,9 +586,14 @@ body {
   align-items: center;
   gap: 5px;
   font-size: 11px;
-  color: var(--text-secondary);
+  color: #cccccc;
   margin-top: 1px;
   flex-wrap: wrap;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
 .role-tag {
@@ -910,5 +920,336 @@ body {
   }
   .form-row {
     grid-template-columns: 1fr;
+  }
+}
+/* ─── ÇERÇEVE EFEKTLERİ ── */
+.streamer-card.frame-neon-pulse {
+  border: 2px solid #00ffff;
+  box-shadow:
+    0 0 8px #00ffff,
+    0 0 20px #00ffff44;
+  animation: neonPulse 1.8s ease-in-out infinite;
+}
+@keyframes neonPulse {
+  0%,
+  100% {
+    box-shadow:
+      0 0 8px #00ffff,
+      0 0 20px #00ffff44;
+  }
+  50% {
+    box-shadow:
+      0 0 20px #00ffff,
+      0 0 50px #00ffff88;
+  }
+}
+
+.streamer-card.frame-rainbow {
+  border: 2px solid transparent;
+  background-clip: padding-box;
+  position: relative;
+}
+.streamer-card.frame-rainbow::before {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  border-radius: 12px;
+  background: linear-gradient(
+    90deg,
+    #ff0000,
+    #ff7700,
+    #ffff00,
+    #00ff00,
+    #0000ff,
+    #8b00ff,
+    #ff0000
+  );
+  background-size: 300% 100%;
+  animation: rainbowMove 2s linear infinite;
+  z-index: -1;
+}
+@keyframes rainbowMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 300% 50%;
+  }
+}
+
+.streamer-card.frame-gold {
+  border: 2px solid #ffd700;
+  box-shadow:
+    0 0 10px #ffd70066,
+    0 0 30px #ffd70033;
+  animation: goldShine 2s ease-in-out infinite;
+}
+@keyframes goldShine {
+  0%,
+  100% {
+    box-shadow:
+      0 0 10px #ffd70066,
+      0 0 30px #ffd70033;
+  }
+  50% {
+    box-shadow:
+      0 0 20px #ffd700aa,
+      0 0 60px #ffd70066;
+  }
+}
+
+.streamer-card.frame-fire {
+  border: 2px solid transparent;
+  position: relative;
+}
+.streamer-card.frame-fire::before {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  border-radius: 12px;
+  background: linear-gradient(90deg, #ff4500, #ff8c00, #ffd700, #ff4500);
+  background-size: 300% 100%;
+  animation: fireMove 1.5s linear infinite;
+  z-index: -1;
+}
+@keyframes fireMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 300% 50%;
+  }
+}
+
+.streamer-card.frame-ice {
+  border: 2px solid #00bfff;
+  box-shadow:
+    0 0 10px #00bfff66,
+    0 0 30px #00bfff33;
+  animation: iceShimmer 2.5s ease-in-out infinite;
+}
+@keyframes iceShimmer {
+  0%,
+  100% {
+    box-shadow:
+      0 0 10px #00bfff66,
+      0 0 30px #00bfff33;
+    border-color: #00bfff;
+  }
+  50% {
+    box-shadow:
+      0 0 20px #aaeeffaa,
+      0 0 50px #00bfff55;
+    border-color: #aaeeff;
+  }
+}
+
+.streamer-card.frame-galaxy {
+  border: 2px solid transparent;
+  position: relative;
+}
+.streamer-card.frame-galaxy::before {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  border-radius: 12px;
+  background: linear-gradient(
+    90deg,
+    #8b00ff,
+    #4400ff,
+    #ff00ff,
+    #00ffff,
+    #8b00ff
+  );
+  background-size: 300% 100%;
+  animation: galaxyMove 3s linear infinite;
+  z-index: -1;
+}
+@keyframes galaxyMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 300% 50%;
+  }
+}
+
+/* ─── ÇERÇEVE EFEKTLERİ ──-------------------------------------------------------------------------------------*/
+.streamer-card.frame-neon-pulse {
+  border: 2px solid #00ffff;
+  box-shadow:
+    0 0 8px #00ffff,
+    0 0 20px #00ffff44;
+  animation: neonPulse 1.8s ease-in-out infinite;
+}
+@keyframes neonPulse {
+  0%,
+  100% {
+    box-shadow:
+      0 0 8px #00ffff,
+      0 0 20px #00ffff44;
+  }
+  50% {
+    box-shadow:
+      0 0 20px #00ffff,
+      0 0 50px #00ffff88;
+  }
+}
+
+.streamer-card.frame-rainbow {
+  border: 2px solid transparent;
+  background-clip: padding-box;
+  position: relative;
+}
+.streamer-card.frame-rainbow::before {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  border-radius: 12px;
+  background: linear-gradient(
+    90deg,
+    #ff0000,
+    #ff7700,
+    #ffff00,
+    #00ff00,
+    #0000ff,
+    #8b00ff,
+    #ff0000
+  );
+  background-size: 300% 100%;
+  animation: rainbowMove 2s linear infinite;
+  z-index: -1;
+}
+@keyframes rainbowMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 300% 50%;
+  }
+}
+
+.streamer-card.frame-gold {
+  border: 2px solid #ffd700;
+  box-shadow:
+    0 0 10px #ffd70066,
+    0 0 30px #ffd70033;
+  animation: goldShine 2s ease-in-out infinite;
+}
+@keyframes goldShine {
+  0%,
+  100% {
+    box-shadow:
+      0 0 10px #ffd70066,
+      0 0 30px #ffd70033;
+  }
+  50% {
+    box-shadow:
+      0 0 20px #ffd700aa,
+      0 0 60px #ffd70066;
+  }
+}
+
+.streamer-card.frame-fire {
+  border: 2px solid transparent;
+  position: relative;
+}
+.streamer-card.frame-fire::before {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  border-radius: 12px;
+  background: linear-gradient(90deg, #ff4500, #ff8c00, #ffd700, #ff4500);
+  background-size: 300% 100%;
+  animation: fireMove 1.5s linear infinite;
+  z-index: -1;
+}
+@keyframes fireMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 300% 50%;
+  }
+}
+
+.streamer-card.frame-ice {
+  border: 2px solid #00bfff;
+  box-shadow:
+    0 0 10px #00bfff66,
+    0 0 30px #00bfff33;
+  animation: iceShimmer 2.5s ease-in-out infinite;
+}
+@keyframes iceShimmer {
+  0%,
+  100% {
+    box-shadow:
+      0 0 10px #00bfff66,
+      0 0 30px #00bfff33;
+    border-color: #00bfff;
+  }
+  50% {
+    box-shadow:
+      0 0 20px #aaeeffaa,
+      0 0 50px #00bfff55;
+    border-color: #aaeeff;
+  }
+}
+
+.streamer-card.frame-galaxy {
+  border: 2px solid transparent;
+  position: relative;
+}
+.streamer-card.frame-galaxy::before {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  border-radius: 12px;
+  background: linear-gradient(
+    90deg,
+    #8b00ff,
+    #4400ff,
+    #ff00ff,
+    #00ffff,
+    #8b00ff
+  );
+  background-size: 300% 100%;
+  animation: galaxyMove 3s linear infinite;
+  z-index: -1;
+}
+@keyframes galaxyMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 300% 50%;
+  }
+}
+.streamer-card.frame-caution {
+  border: 2px solid transparent;
+  position: relative;
+}
+.streamer-card.frame-caution::before {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  border-radius: 12px;
+  background: repeating-linear-gradient(
+    45deg,
+    #ffd700,
+    #ffd700 10px,
+    #111111 10px,
+    #111111 20px
+  );
+  background-size: 200% 200%;
+  animation: cautionWave 2s linear infinite;
+  z-index: -1;
+}
+@keyframes cautionWave {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 100% 100%;
   }
 }
