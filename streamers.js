@@ -8,7 +8,18 @@ const STREAMERS = [
     profileUrl: "https://kick.com/eray",
     avatar:
       "https://files.kick.com/images/user/11096104/profile_image/conversion/da996ef7-742a-4b50-8a9d-15045762577e-fullsize.webp",
-    role: "İllegal",
+    role: "İllegal Girişimci",
+  },
+  {
+    id: "a2",
+    channelName: "BarisYTB",
+    character: "Muhittin Bacanak",
+    platform: "kick",
+    channelId: "barisytb",
+    profileUrl: "https://kick.com/barisytb",
+    avatar:
+      "https://files.kick.com/images/user/11096104/profile_image/conversion/da996ef7-742a-4b50-8a9d-15045762577e-fullsize.webp",
+    role: "Sapık Taksici",
   },
   {
     id: "444",
@@ -30,7 +41,7 @@ const STREAMERS = [
     profileUrl: "https://kick.com/sachiebn",
     avatar:
       "https://imgproxy.mehmetcem32.workers.dev/?url=https%3A%2F%2Fcdn.discordapp.com%2Favatars%2F1240755037114859610%2F65ae5ffb85513b73ecc00da3e2cb081e.png%3Fsize%3D256",
-    role: "",
+    role: "Serbest Sanatçı",
   },
   {
     id: "435",
@@ -261,7 +272,7 @@ const STREAMERS = [
     profileUrl: "https://kick.com/alpnfinalform",
     avatar:
       "https://imgproxy.mehmetcem32.workers.dev/?url=https%3A%2F%2Fcdn.discordapp.com%2Favatars%2F305100677644943371%2Fa_0870e3248627225d696829f5141cf4a8.png%3Fsize%3D256",
-    role: "Oto Tamircisi",
+    role: "Mekanik İşletmecisi",
   },
   {
     id: "342",
@@ -316,7 +327,7 @@ const STREAMERS = [
     profileUrl: "https://kick.com/yyiido",
     avatar:
       "https://imgproxy.mehmetcem32.workers.dev/?url=https%3A%2F%2Fcdn.discordapp.com%2Favatars%2F257247979692359680%2F85af15eb61cc129fa14f697c297bee15.png%3Fsize%3D256",
-    role: "",
+    role: "Silah Kaçakçısı",
   },
   {
     id: "314",
@@ -360,7 +371,7 @@ const STREAMERS = [
     profileUrl: "https://kick.com/berrusyy",
     avatar:
       "https://imgproxy.mehmetcem32.workers.dev/?url=https%3A%2F%2Fcdn.discordapp.com%2Favatars%2F814216831882887259%2Fb71fc5c07e2e1bb12e4f74adb62d4511.png%3Fsize%3D256",
-    role: "",
+    role: "The Last Light Pub Bartender",
   },
   {
     id: "301",
@@ -437,7 +448,7 @@ const STREAMERS = [
     profileUrl: "https://kick.com/flomore",
     avatar:
       "https://imgproxy.mehmetcem32.workers.dev/?url=https%3A%2F%2Fcdn.discordapp.com%2Favatars%2F145600698149634048%2F8ac85e7e084acdc4e69daa3416207959.png%3Fsize%3D256",
-    role: "",
+    role: "Manipülatif & Dolandırıcı",
   },
   {
     id: "290",
@@ -558,7 +569,7 @@ const STREAMERS = [
     profileUrl: "https://kick.com/pinaroma",
     avatar:
       "https://imgproxy.mehmetcem32.workers.dev/?url=https%3A%2F%2Fcdn.discordapp.com%2Favatars%2F943638225791090748%2F768a72bd09739fa6b3c2bc26fc554ebc.png%3Fsize%3D256",
-    role: "",
+    role: "Lâl & Dövme Sanatçısı",
   },
   {
     id: "227",
@@ -657,18 +668,18 @@ const STREAMERS = [
     profileUrl: "https://kick.com/spyks26",
     avatar:
       "https://imgproxy.mehmetcem32.workers.dev/?url=https%3A%2F%2Fcdn.discordapp.com%2Favatars%2F935154329499881502%2F2f56695f6b65b9c1bcfc8cbf391f776d.png%3Fsize%3D256",
-    role: "",
+    role: "Dövme Sanatçısı",
   },
   {
     id: "209",
-    channelName: "tosun07",
+    channelName: "Tosun",
     character: "Hayri Paldır",
     platform: "kick",
     channelId: "adimtosundeil",
     profileUrl: "https://kick.com/adimtosundeil",
     avatar:
       "https://imgproxy.mehmetcem32.workers.dev/?url=https%3A%2F%2Fcdn.discordapp.com%2Favatars%2F553572239337848833%2Ffaf3e2d0c42f68bcc5b0dcbec3596aa6.png%3Fsize%3D256",
-    role: "",
+    role: "Taksici",
   },
   {
     id: "210",
@@ -712,7 +723,7 @@ const STREAMERS = [
     profileUrl: "https://kick.com/mrsrussell",
     avatar:
       "https://imgproxy.mehmetcem32.workers.dev/?url=https%3A%2F%2Fcdn.discordapp.com%2Favatars%2F269844276945354752%2F1a4ee45e15b048b46c5be91cae9c9937.png%3Fsize%3D256",
-    role: "İşletme Sahibi",
+    role: "Hookies İşletmecisi",
   },
   {
     id: "161",
@@ -760,14 +771,14 @@ const STREAMERS = [
   },
   {
     id: "156",
-    channelName: "emre.w",
+    channelName: "Emrezf",
     character: "Doruk Altın",
     platform: "kick",
     channelId: "emrezf",
     profileUrl: "https://kick.com/emrezf",
     avatar:
       "https://imgproxy.mehmetcem32.workers.dev/?url=https%3A%2F%2Fcdn.discordapp.com%2Favatars%2F693817460138311731%2F0b86f341cd808673b8edde794b4b5b4b.png%3Fsize%3D256",
-    role: "",
+    role: "Sanatın Oğlu",
   },
   {
     id: "151",
@@ -888,7 +899,7 @@ const STREAMERS = [
     profileUrl: "https://kick.com/myres55",
     avatar:
       "https://imgproxy.mehmetcem32.workers.dev/?url=https%3A%2F%2Fcdn.discordapp.com%2Favatars%2F124258725019123712%2F35a9527a6b9d5b4230ef729a98df3f3c.png%3Fsize%3D256",
-    role: "",
+    role: "Serbest Meslek",
   },
   {
     id: "111",
@@ -932,7 +943,7 @@ const STREAMERS = [
     profileUrl: "https://kick.com/kocabebe",
     avatar:
       "https://imgproxy.mehmetcem32.workers.dev/?url=https%3A%2F%2Fcdn.discordapp.com%2Favatars%2F732274968712445973%2Fa_f2607fcc941c3355649c56e08558af42.png%3Fsize%3D256",
-    role: "Burger Shot",
+    role: "The Last Light Pub Bartender",
   },
   {
     id: "60",
@@ -976,7 +987,7 @@ const STREAMERS = [
     profileUrl: "https://kick.com/lynesuar",
     avatar:
       "https://imgproxy.mehmetcem32.workers.dev/?url=https%3A%2F%2Fcdn.discordapp.com%2Favatars%2F1217658956936384512%2Fa_cd7574c83d9fcdeab1ce196145d11e47.png%3Fsize%3D256",
-    role: "",
+    role: "Bean İşletmecisi",
   },
   {
     id: "52",
@@ -1079,14 +1090,14 @@ const STREAMERS = [
   },
   {
     id: "43",
-    channelName: "chemos.h",
+    channelName: "Chemossh",
     character: "Bade Yıldırım",
     platform: "kick",
     channelId: "chemossh",
     profileUrl: "https://kick.com/chemossh",
     avatar:
       "https://imgproxy.mehmetcem32.workers.dev/?url=https%3A%2F%2Fcdn.discordapp.com%2Favatars%2F1108904262475452517%2Fee4594de13381de41899f14da6eb386f.png%3Fsize%3D256",
-    role: "",
+    role: "Psikolog & Pub Managment",
   },
   {
     id: "42",
@@ -1163,7 +1174,7 @@ const STREAMERS = [
     profileUrl: "https://kick.com/6bir",
     avatar:
       "https://imgproxy.mehmetcem32.workers.dev/?url=https%3A%2F%2Fcdn.discordapp.com%2Favatars%2F305251214088470529%2F80294097dfdd84e0d1532d4edb8fa74c.png%3Fsize%3D256",
-    role: "",
+    role: "Polis Akademisi Öğrencisi",
   },
   {
     id: "5",
@@ -1196,6 +1207,7 @@ const PRIORITY = [
   //"urganci",
   "eray",
   "yyiido",
+  "mrsrussell",
   "cappture",
 ];
 
@@ -1208,6 +1220,7 @@ const FRAMES = {
   cappture: "caution",
   eray: "gang",
   yyiido: "blood",
+  mrsrussell: "galaxy",
 };
 
 const CONTACT_EMAIL = "mehmetcem32@gmail.com";
