@@ -936,14 +936,14 @@ const STREAMERS = [
   },
   {
     id: "60",
-    channelName: "hadigidelim",
+    channelName: "Cappture",
     character: "Mehmet Avcı",
     platform: "kick",
     channelId: "cappture",
     profileUrl: "https://kick.com/cappture",
     avatar:
       "https://imgproxy.mehmetcem32.workers.dev/?url=https%3A%2F%2Fcdn.discordapp.com%2Favatars%2F408749549306511361%2F39a9ba2fb7e870f54704bf4d568a42f5.png%3Fsize%3D256",
-    role: "",
+    role: "Laz Taksici",
   },
   {
     id: "57",
