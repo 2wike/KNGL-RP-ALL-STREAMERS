@@ -846,6 +846,26 @@ body {
   border-color: var(--accent);
   color: var(--text-primary);
 }
+.status-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 13px;
+  background: rgba(74, 222, 128, 0.12);
+  border: 1px solid rgba(74, 222, 128, 0.3);
+  border-radius: var(--radius-sm);
+  color: #4ade80;
+  font-family: var(--font-body);
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all var(--ease);
+}
+.status-btn:hover {
+  background: rgba(74, 222, 128, 0.2);
+  border-color: #4ade80;
+  color: #4ade80;
+}
 
 /* ─── FOOTER ── */
 .site-footer {
