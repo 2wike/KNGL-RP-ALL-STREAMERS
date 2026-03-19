@@ -675,7 +675,7 @@ const STREAMERS = [
     channelName: "envercey",
     character: "Evren Dolunay",
     platform: "kick",
-    channelId: "emrezf",
+    channelId: "envercey",
     profileUrl: "https://kick.com/envercey",
     avatar: "",
     role: "Falcı & DJ",
