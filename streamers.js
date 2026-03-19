@@ -103,12 +103,12 @@ const STREAMERS = [
   {
     id: "s19",
     channelName: "EzoM",
-    character: "",
+    character: "Yulia Duldova",
     platform: "kick",
     channelId: "iezom",
     profileUrl: "https://kick.com/iezom",
     avatar: "",
-    role: "",
+    role: "Ukraynalı Yulia",
   },
   {
     id: "s58",
