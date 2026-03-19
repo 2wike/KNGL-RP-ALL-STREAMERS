@@ -1392,3 +1392,147 @@ body {
     background-position: 300% 50%;
   }
 }
+/* ─── ROSE ── */
+.streamer-card.frame-rose {
+  border: 2px solid #ff69b4;
+  animation: rosePulse 2.5s ease-in-out infinite;
+}
+@keyframes rosePulse {
+  0%, 100% { box-shadow: 0 0 8px #ff69b466, 0 0 20px #ff69b433; border-color: #ff69b4; }
+  50%       { box-shadow: 0 0 20px #ff69b4aa, 0 0 40px #ff69b466; border-color: #ffb6c1; }
+}
+
+/* ─── PEARL ── */
+.streamer-card.frame-pearl {
+  border: 2px solid transparent;
+  position: relative;
+}
+.streamer-card.frame-pearl::before {
+  content: '';
+  position: absolute;
+  inset: -2px;
+  border-radius: 12px;
+  background: linear-gradient(90deg, #f0f0f0, #ffffff, #e8e8e8, #fffafa, #ffffff);
+  background-size: 300% 100%;
+  animation: pearlShimmer 3s ease-in-out infinite;
+  z-index: -1;
+}
+@keyframes pearlShimmer {
+  0%   { background-position: 0% 50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* ─── LAVENDER ── */
+.streamer-card.frame-lavender {
+  border: 2px solid #9b72cf;
+  animation: lavenderWave 3s ease-in-out infinite;
+}
+@keyframes lavenderWave {
+  0%, 100% { box-shadow: 0 0 10px #9b72cf55, 0 0 25px #9b72cf33; border-color: #9b72cf; }
+  50%       { box-shadow: 0 0 18px #c39bd3aa, 0 0 40px #9b72cf55; border-color: #c39bd3; }
+}
+
+/* ─── MOONLIGHT ── */
+.streamer-card.frame-moonlight {
+  border: 2px solid transparent;
+  position: relative;
+}
+.streamer-card.frame-moonlight::before {
+  content: '';
+  position: absolute;
+  inset: -2px;
+  border-radius: 12px;
+  background: linear-gradient(90deg, #c0c0c0, #e8e8ff, #ffffff, #b8b8d0, #c0c0c0);
+  background-size: 300% 100%;
+  animation: moonMove 4s ease-in-out infinite;
+  z-index: -1;
+}
+@keyframes moonMove {
+  0%   { background-position: 0% 50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* ─── SAKURA ── */
+.streamer-card.frame-sakura {
+  border: 2px solid #ffb7c5;
+  animation: sakuraTremor 2s ease-in-out infinite;
+}
+@keyframes sakuraTremor {
+  0%, 100% { box-shadow: 0 0 8px #ffb7c566, 0 0 20px #ffb7c533; border-color: #ffb7c5; }
+  33%       { box-shadow: 0 0 14px #ff9eb5aa, 0 0 30px #ffb7c566; border-color: #ff9eb5; }
+  66%       { box-shadow: 0 0 10px #ffc8d5aa, 0 0 25px #ffb7c544; border-color: #ffc8d5; }
+}
+
+/* ─── SHADOW ── */
+.streamer-card.frame-shadow {
+  border: 2px solid #1a1a2e;
+  animation: shadowPulse 2s ease-in-out infinite;
+}
+@keyframes shadowPulse {
+  0%, 100% { box-shadow: 0 0 10px #000000aa, 0 0 30px #1a1a2e88; border-color: #1a1a2e; }
+  50%       { box-shadow: 0 0 25px #000000cc, 0 0 60px #16213e99; border-color: #16213e; }
+}
+
+/* ─── ABYSS ── */
+.streamer-card.frame-abyss {
+  border: 2px solid transparent;
+  position: relative;
+}
+.streamer-card.frame-abyss::before {
+  content: '';
+  position: absolute;
+  inset: -2px;
+  border-radius: 12px;
+  background: linear-gradient(90deg, #000000, #0d0d0d, #1a0033, #000000);
+  background-size: 300% 100%;
+  animation: abyssMove 4s linear infinite;
+  z-index: -1;
+}
+@keyframes abyssMove {
+  0%   { background-position: 0% 50%; }
+  100% { background-position: 300% 50%; }
+}
+
+/* ─── CRIMSON ── */
+.streamer-card.frame-crimson {
+  border: 2px solid transparent;
+  position: relative;
+}
+.streamer-card.frame-crimson::before {
+  content: '';
+  position: absolute;
+  inset: -2px;
+  border-radius: 12px;
+  background: linear-gradient(90deg, #1a0000, #8b0000, #1a0000, #4a0000);
+  background-size: 300% 100%;
+  animation: crimsonMove 2.5s ease-in-out infinite;
+  z-index: -1;
+}
+@keyframes crimsonMove {
+  0%   { background-position: 0% 50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* ─── VOID ── */
+.streamer-card.frame-void {
+  border: 2px solid #2d0057;
+  animation: voidPulse 3s ease-in-out infinite;
+}
+@keyframes voidPulse {
+  0%, 100% { box-shadow: 0 0 10px #2d005766, 0 0 30px #2d005733; border-color: #2d0057; }
+  50%       { box-shadow: 0 0 25px #5500aaaa, 0 0 60px #2d005766; border-color: #5500aa; }
+}
+/* ─── VENOM ── */
+.streamer-card.frame-venom {
+  border: 2px solid #7b00cc;
+  position: relative;
+  animation: venomDrip 1.5s ease-in-out infinite;
+}
+@keyframes venomDrip {
+  0%   { box-shadow: 0 0 8px #7b00cc88, 0 4px 16px #7b00cc44; border-color: #7b00cc; }
+  50%  { box-shadow: 0 0 20px #aa00ffaa, 0 8px 32px #7b00cc88; border-color: #aa00ff; }
+  100% { box-shadow: 0 0 8px #7b00cc88, 0 4px 16px #7b00cc44; border-color: #7b00cc; }
+}
