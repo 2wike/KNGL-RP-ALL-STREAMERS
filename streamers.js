@@ -111,6 +111,16 @@ const STREAMERS = [
     role: "",
   },
   {
+    id: "s58",
+    channelName: "Spyks",
+    character: "Recep Sertel",
+    platform: "kick",
+    channelId: "iezom",
+    profileUrl: "https://kick.com/spyks26",
+    avatar: "",
+    role: "Dövme Sanatçısı",
+  },
+  {
     id: "a5",
     channelName: "Flomore",
     character: "Sami Ozan",
@@ -323,12 +333,12 @@ const STREAMERS = [
   {
     id: "s23",
     channelName: "Tosun",
-    character: "",
+    character: "Hayri Paldır",
     platform: "kick",
     channelId: "adimtosundeil",
     profileUrl: "https://kick.com/adimtosundeil",
     avatar: "",
-    role: "",
+    role: "Taksici",
   },
   {
     id: "s24",
