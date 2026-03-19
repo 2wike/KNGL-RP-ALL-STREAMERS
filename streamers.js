@@ -947,7 +947,7 @@ const STREAMERS = [
     "channelId": "iezom",
     "profileUrl": "https://kick.com/iezom",
     "avatar": "https://imgproxy.mehmetcem32.workers.dev/?url=https%3A%2F%2Fcdn.discordapp.com%2Favatars%2F234339044207624192%2F436d9103e013457d9625ed25b690c53a.png%3Fsize%3D256",
-    "role": ""
+    "role": "Ukraynalı Yulia"
   },
   {
     "id": "97",
