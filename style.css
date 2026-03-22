@@ -1678,7 +1678,8 @@ body {
 .streamer-card.frame-money {
   border: 2px solid transparent;
   position: relative;
-  animation: goldPulse 2.5s ease-in-out infinite;
+  overflow: hidden;
+  animation: moneyGoldPulse 2.5s ease-in-out infinite;
 }
 .streamer-card.frame-money::before {
   content: "";
@@ -1696,10 +1697,10 @@ body {
     #ffd700
   );
   background-size: 300% 100%;
-  animation: shimmerMove 2s ease-in-out infinite;
+  animation: moneyShimmer 2s ease-in-out infinite;
   z-index: -1;
 }
-@keyframes shimmerMove {
+@keyframes moneyShimmer {
   0% {
     background-position: 0% 50%;
   }
@@ -1710,7 +1711,7 @@ body {
     background-position: 0% 50%;
   }
 }
-@keyframes goldPulse {
+@keyframes moneyGoldPulse {
   0%,
   100% {
     box-shadow:
@@ -1726,23 +1727,18 @@ body {
     border-color: #ffe44d;
   }
 }
-/* ─── MONEY RAIN ── */
 .money-rain-stage {
   position: absolute;
-  inset: -4px;
-  border-radius: 12px;
+  inset: 0;
   pointer-events: none;
   overflow: hidden;
-  z-index: 5;
+  z-index: 10;
 }
-
 .money-drop {
   position: absolute;
   top: -20px;
   animation: moneyRain linear infinite;
-  filter: drop-shadow(0 0 3px #ffd70099);
 }
-
 .money-coin {
   width: 13px;
   height: 13px;
@@ -1750,30 +1746,24 @@ body {
   border-radius: 50%;
   border: 1px solid #ffa50066;
 }
-
 .money-ingot {
   width: 18px;
   height: 9px;
   background: linear-gradient(135deg, #ffe44d, #ffd700 40%, #b8860b 80%);
   border-radius: 3px;
-  border: 1px solid #ffa50044;
 }
-
 .money-bill {
   width: 20px;
   height: 12px;
   background: linear-gradient(135deg, #2d6a2d, #3a8a3a 50%, #1e4d1e);
   border-radius: 2px;
-  border: 1px solid #1a5c1a66;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 8px;
   font-weight: 700;
   color: #90ee90;
-  line-height: 1;
 }
-
 @keyframes moneyRain {
   0% {
     transform: translateY(-20px) rotate(0deg);
@@ -1786,7 +1776,7 @@ body {
     opacity: 1;
   }
   100% {
-    transform: translateY(110%) rotate(360deg);
+    transform: translateY(300px) rotate(360deg);
     opacity: 0;
   }
 }
