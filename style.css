@@ -1548,3 +1548,34 @@ body {
   50%  { box-shadow: 0 0 20px #aa00ffaa, 0 8px 32px #7b00cc88; border-color: #aa00ff; }
   100% { box-shadow: 0 0 8px #7b00cc88, 0 4px 16px #7b00cc44; border-color: #7b00cc; }
 }
+/* ─── MONEY ── */
+.streamer-card.frame-money {
+  border: 2px solid transparent;
+  position: relative;
+  animation: goldPulse 2.5s ease-in-out infinite;
+}
+.streamer-card.frame-money::before {
+  content: '';
+  position: absolute;
+  inset: -2px;
+  border-radius: 12px;
+  background: linear-gradient(90deg, #b8860b, #ffd700, #ffe44d, #ffa500, #ffd700, #b8860b, #ffd700);
+  background-size: 300% 100%;
+  animation: shimmerMove 2s ease-in-out infinite;
+  z-index: -1;
+}
+@keyframes shimmerMove {
+  0%   { background-position: 0% 50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+@keyframes goldPulse {
+  0%, 100% {
+    box-shadow: 0 0 8px #ffd70088, 0 0 20px #ffaa0044;
+    border-color: #ffd700;
+  }
+  50% {
+    box-shadow: 0 0 24px #ffd700cc, 0 0 50px #ffaa0088, 0 0 80px #ff880033;
+    border-color: #ffe44d;
+  }
+}
