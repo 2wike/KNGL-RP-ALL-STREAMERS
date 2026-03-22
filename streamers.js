@@ -1211,7 +1211,7 @@ const FRAMES = {
   yyiido: "blood",
   mrsrussell: "venom",
   nymvia: "sakura",
-  ayberk: "crimson",
+  ayberk: "money",
 };
 
 const CONTACT_EMAIL = "mehmetcem32@gmail.com";
