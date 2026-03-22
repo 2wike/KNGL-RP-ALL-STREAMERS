@@ -584,7 +584,7 @@ const STREAMERS = [
   },
   {
     id: "228",
-    channelName: "ayberkbabur",
+    channelName: "Ayberk",
     character: "Abidin Bilir",
     platform: "kick",
     channelId: "ayberk",
@@ -1210,6 +1210,8 @@ const FRAMES = {
   eray: "gang",
   yyiido: "blood",
   mrsrussell: "venom",
+  nymvia: "sakura",
+  ayberk: "crimson",
 };
 
 const CONTACT_EMAIL = "mehmetcem32@gmail.com";
