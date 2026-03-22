@@ -18,8 +18,19 @@ const STREAMERS = [
     channelId: "barisytb",
     profileUrl: "https://kick.com/barisytb",
     avatar:
-      "https://files.kick.com/images/user/11096104/profile_image/conversion/da996ef7-742a-4b50-8a9d-15045762577e-fullsize.webp",
-    role: "Sapık Taksici",
+      "https://files.kick.com/images/user/28153969/profile_image/conversion/7b9da98b-48bf-495a-b9cf-fcd373f39dc0-fullsize.webp",
+    role: "",
+  },
+  {
+    id: "a3",
+    channelName: "Ahmet Turku",
+    character: "Fikri Çiçek",
+    platform: "kick",
+    channelId: "ahmetturku",
+    profileUrl: "https://kick.com/ahmetturku",
+    avatar:
+      "https://files.kick.com/images/user/31204559/profile_image/conversion/b94defe4-27aa-436e-9541-fc211130349b-fullsize.webp",
+    role: "",
   },
   {
     id: "444",
