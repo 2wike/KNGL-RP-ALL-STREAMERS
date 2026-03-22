@@ -841,20 +841,32 @@ body {
   align-items: center;
   gap: 6px;
   padding: 6px 13px;
-  background: var(--bg-raised);
-  border: 1px solid var(--border);
+  background: linear-gradient(90deg, #ff4500, #ff8c00, #ff4500);
+  background-size: 200% 100%;
+  border: none;
   border-radius: var(--radius-sm);
-  color: var(--text-secondary);
+  color: #fff;
   font-family: var(--font-body);
   font-size: 13px;
-  font-weight: 500;
+  font-weight: 600;
   text-decoration: none;
-  transition: all var(--ease);
+  animation: basvuruPulse 1.5s ease-in-out infinite, basvuruShimmer 2s linear infinite;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.4);
+}
+
+@keyframes basvuruPulse {
+  0%, 100% { box-shadow: 0 0 8px #ff450088, 0 0 20px #ff450044; }
+  50%       { box-shadow: 0 0 18px #ff8c00cc, 0 0 40px #ff450088; }
+}
+
+@keyframes basvuruShimmer {
+  0%   { background-position: 0% 50%; }
+  100% { background-position: 200% 50%; }
 }
 
 .basvuru-btn:hover {
-  border-color: var(--accent);
-  color: var(--text-primary);
+  opacity: 0.85;
+  transform: translateY(-1px);
 }
 .status-btn {
   display: flex;
