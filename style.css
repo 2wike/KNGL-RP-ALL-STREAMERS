@@ -850,18 +850,33 @@ body {
   font-size: 13px;
   font-weight: 600;
   text-decoration: none;
-  animation: basvuruPulse 1.5s ease-in-out infinite, basvuruShimmer 2s linear infinite;
-  text-shadow: 0 1px 3px rgba(0,0,0,0.4);
+  animation:
+    basvuruPulse 1.5s ease-in-out infinite,
+    basvuruShimmer 2s linear infinite;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
 }
 
 @keyframes basvuruPulse {
-  0%, 100% { box-shadow: 0 0 8px #ff450088, 0 0 20px #ff450044; }
-  50%       { box-shadow: 0 0 18px #ff8c00cc, 0 0 40px #ff450088; }
+  0%,
+  100% {
+    box-shadow:
+      0 0 8px #ff450088,
+      0 0 20px #ff450044;
+  }
+  50% {
+    box-shadow:
+      0 0 18px #ff8c00cc,
+      0 0 40px #ff450088;
+  }
 }
 
 @keyframes basvuruShimmer {
-  0%   { background-position: 0% 50%; }
-  100% { background-position: 200% 50%; }
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 200% 50%;
+  }
 }
 
 .basvuru-btn:hover {
@@ -1410,8 +1425,19 @@ body {
   animation: rosePulse 2.5s ease-in-out infinite;
 }
 @keyframes rosePulse {
-  0%, 100% { box-shadow: 0 0 8px #ff69b466, 0 0 20px #ff69b433; border-color: #ff69b4; }
-  50%       { box-shadow: 0 0 20px #ff69b4aa, 0 0 40px #ff69b466; border-color: #ffb6c1; }
+  0%,
+  100% {
+    box-shadow:
+      0 0 8px #ff69b466,
+      0 0 20px #ff69b433;
+    border-color: #ff69b4;
+  }
+  50% {
+    box-shadow:
+      0 0 20px #ff69b4aa,
+      0 0 40px #ff69b466;
+    border-color: #ffb6c1;
+  }
 }
 
 /* ─── PEARL ── */
@@ -1420,19 +1446,32 @@ body {
   position: relative;
 }
 .streamer-card.frame-pearl::before {
-  content: '';
+  content: "";
   position: absolute;
   inset: -2px;
   border-radius: 12px;
-  background: linear-gradient(90deg, #f0f0f0, #ffffff, #e8e8e8, #fffafa, #ffffff);
+  background: linear-gradient(
+    90deg,
+    #f0f0f0,
+    #ffffff,
+    #e8e8e8,
+    #fffafa,
+    #ffffff
+  );
   background-size: 300% 100%;
   animation: pearlShimmer 3s ease-in-out infinite;
   z-index: -1;
 }
 @keyframes pearlShimmer {
-  0%   { background-position: 0% 50%; }
-  50%  { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 /* ─── LAVENDER ── */
@@ -1441,8 +1480,19 @@ body {
   animation: lavenderWave 3s ease-in-out infinite;
 }
 @keyframes lavenderWave {
-  0%, 100% { box-shadow: 0 0 10px #9b72cf55, 0 0 25px #9b72cf33; border-color: #9b72cf; }
-  50%       { box-shadow: 0 0 18px #c39bd3aa, 0 0 40px #9b72cf55; border-color: #c39bd3; }
+  0%,
+  100% {
+    box-shadow:
+      0 0 10px #9b72cf55,
+      0 0 25px #9b72cf33;
+    border-color: #9b72cf;
+  }
+  50% {
+    box-shadow:
+      0 0 18px #c39bd3aa,
+      0 0 40px #9b72cf55;
+    border-color: #c39bd3;
+  }
 }
 
 /* ─── MOONLIGHT ── */
@@ -1451,19 +1501,32 @@ body {
   position: relative;
 }
 .streamer-card.frame-moonlight::before {
-  content: '';
+  content: "";
   position: absolute;
   inset: -2px;
   border-radius: 12px;
-  background: linear-gradient(90deg, #c0c0c0, #e8e8ff, #ffffff, #b8b8d0, #c0c0c0);
+  background: linear-gradient(
+    90deg,
+    #c0c0c0,
+    #e8e8ff,
+    #ffffff,
+    #b8b8d0,
+    #c0c0c0
+  );
   background-size: 300% 100%;
   animation: moonMove 4s ease-in-out infinite;
   z-index: -1;
 }
 @keyframes moonMove {
-  0%   { background-position: 0% 50%; }
-  50%  { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 /* ─── SAKURA ── */
@@ -1472,9 +1535,25 @@ body {
   animation: sakuraTremor 2s ease-in-out infinite;
 }
 @keyframes sakuraTremor {
-  0%, 100% { box-shadow: 0 0 8px #ffb7c566, 0 0 20px #ffb7c533; border-color: #ffb7c5; }
-  33%       { box-shadow: 0 0 14px #ff9eb5aa, 0 0 30px #ffb7c566; border-color: #ff9eb5; }
-  66%       { box-shadow: 0 0 10px #ffc8d5aa, 0 0 25px #ffb7c544; border-color: #ffc8d5; }
+  0%,
+  100% {
+    box-shadow:
+      0 0 8px #ffb7c566,
+      0 0 20px #ffb7c533;
+    border-color: #ffb7c5;
+  }
+  33% {
+    box-shadow:
+      0 0 14px #ff9eb5aa,
+      0 0 30px #ffb7c566;
+    border-color: #ff9eb5;
+  }
+  66% {
+    box-shadow:
+      0 0 10px #ffc8d5aa,
+      0 0 25px #ffb7c544;
+    border-color: #ffc8d5;
+  }
 }
 
 /* ─── SHADOW ── */
@@ -1483,8 +1562,19 @@ body {
   animation: shadowPulse 2s ease-in-out infinite;
 }
 @keyframes shadowPulse {
-  0%, 100% { box-shadow: 0 0 10px #000000aa, 0 0 30px #1a1a2e88; border-color: #1a1a2e; }
-  50%       { box-shadow: 0 0 25px #000000cc, 0 0 60px #16213e99; border-color: #16213e; }
+  0%,
+  100% {
+    box-shadow:
+      0 0 10px #000000aa,
+      0 0 30px #1a1a2e88;
+    border-color: #1a1a2e;
+  }
+  50% {
+    box-shadow:
+      0 0 25px #000000cc,
+      0 0 60px #16213e99;
+    border-color: #16213e;
+  }
 }
 
 /* ─── ABYSS ── */
@@ -1493,7 +1583,7 @@ body {
   position: relative;
 }
 .streamer-card.frame-abyss::before {
-  content: '';
+  content: "";
   position: absolute;
   inset: -2px;
   border-radius: 12px;
@@ -1503,8 +1593,12 @@ body {
   z-index: -1;
 }
 @keyframes abyssMove {
-  0%   { background-position: 0% 50%; }
-  100% { background-position: 300% 50%; }
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 300% 50%;
+  }
 }
 
 /* ─── CRIMSON ── */
@@ -1513,7 +1607,7 @@ body {
   position: relative;
 }
 .streamer-card.frame-crimson::before {
-  content: '';
+  content: "";
   position: absolute;
   inset: -2px;
   border-radius: 12px;
@@ -1523,9 +1617,15 @@ body {
   z-index: -1;
 }
 @keyframes crimsonMove {
-  0%   { background-position: 0% 50%; }
-  50%  { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 /* ─── VOID ── */
@@ -1534,8 +1634,19 @@ body {
   animation: voidPulse 3s ease-in-out infinite;
 }
 @keyframes voidPulse {
-  0%, 100% { box-shadow: 0 0 10px #2d005766, 0 0 30px #2d005733; border-color: #2d0057; }
-  50%       { box-shadow: 0 0 25px #5500aaaa, 0 0 60px #2d005766; border-color: #5500aa; }
+  0%,
+  100% {
+    box-shadow:
+      0 0 10px #2d005766,
+      0 0 30px #2d005733;
+    border-color: #2d0057;
+  }
+  50% {
+    box-shadow:
+      0 0 25px #5500aaaa,
+      0 0 60px #2d005766;
+    border-color: #5500aa;
+  }
 }
 /* ─── VENOM ── */
 .streamer-card.frame-venom {
@@ -1544,9 +1655,24 @@ body {
   animation: venomDrip 1.5s ease-in-out infinite;
 }
 @keyframes venomDrip {
-  0%   { box-shadow: 0 0 8px #7b00cc88, 0 4px 16px #7b00cc44; border-color: #7b00cc; }
-  50%  { box-shadow: 0 0 20px #aa00ffaa, 0 8px 32px #7b00cc88; border-color: #aa00ff; }
-  100% { box-shadow: 0 0 8px #7b00cc88, 0 4px 16px #7b00cc44; border-color: #7b00cc; }
+  0% {
+    box-shadow:
+      0 0 8px #7b00cc88,
+      0 4px 16px #7b00cc44;
+    border-color: #7b00cc;
+  }
+  50% {
+    box-shadow:
+      0 0 20px #aa00ffaa,
+      0 8px 32px #7b00cc88;
+    border-color: #aa00ff;
+  }
+  100% {
+    box-shadow:
+      0 0 8px #7b00cc88,
+      0 4px 16px #7b00cc44;
+    border-color: #7b00cc;
+  }
 }
 /* ─── MONEY ── */
 .streamer-card.frame-money {
@@ -1555,27 +1681,112 @@ body {
   animation: goldPulse 2.5s ease-in-out infinite;
 }
 .streamer-card.frame-money::before {
-  content: '';
+  content: "";
   position: absolute;
   inset: -2px;
   border-radius: 12px;
-  background: linear-gradient(90deg, #b8860b, #ffd700, #ffe44d, #ffa500, #ffd700, #b8860b, #ffd700);
+  background: linear-gradient(
+    90deg,
+    #b8860b,
+    #ffd700,
+    #ffe44d,
+    #ffa500,
+    #ffd700,
+    #b8860b,
+    #ffd700
+  );
   background-size: 300% 100%;
   animation: shimmerMove 2s ease-in-out infinite;
   z-index: -1;
 }
 @keyframes shimmerMove {
-  0%   { background-position: 0% 50%; }
-  50%  { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 @keyframes goldPulse {
-  0%, 100% {
-    box-shadow: 0 0 8px #ffd70088, 0 0 20px #ffaa0044;
+  0%,
+  100% {
+    box-shadow:
+      0 0 8px #ffd70088,
+      0 0 20px #ffaa0044;
     border-color: #ffd700;
   }
   50% {
-    box-shadow: 0 0 24px #ffd700cc, 0 0 50px #ffaa0088, 0 0 80px #ff880033;
+    box-shadow:
+      0 0 24px #ffd700cc,
+      0 0 50px #ffaa0088,
+      0 0 80px #ff880033;
     border-color: #ffe44d;
+  }
+}
+/* ─── MONEY RAIN ── */
+.money-rain-stage {
+  position: absolute;
+  inset: -4px;
+  border-radius: 12px;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: 5;
+}
+
+.money-drop {
+  position: absolute;
+  top: -20px;
+  animation: moneyRain linear infinite;
+  filter: drop-shadow(0 0 3px #ffd70099);
+}
+
+.money-coin {
+  width: 13px;
+  height: 13px;
+  background: radial-gradient(circle at 35% 35%, #ffe44d, #ffd700 50%, #b8860b);
+  border-radius: 50%;
+  border: 1px solid #ffa50066;
+}
+
+.money-ingot {
+  width: 18px;
+  height: 9px;
+  background: linear-gradient(135deg, #ffe44d, #ffd700 40%, #b8860b 80%);
+  border-radius: 3px;
+  border: 1px solid #ffa50044;
+}
+
+.money-bill {
+  width: 20px;
+  height: 12px;
+  background: linear-gradient(135deg, #2d6a2d, #3a8a3a 50%, #1e4d1e);
+  border-radius: 2px;
+  border: 1px solid #1a5c1a66;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 8px;
+  font-weight: 700;
+  color: #90ee90;
+  line-height: 1;
+}
+
+@keyframes moneyRain {
+  0% {
+    transform: translateY(-20px) rotate(0deg);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(110%) rotate(360deg);
+    opacity: 0;
   }
 }

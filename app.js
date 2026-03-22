@@ -154,7 +154,38 @@ function makeCard(s, index, isLive) {
         : ""
     }
   `;
+  // ─── MONEY RAIN ──────────────────────────────
+  if (FRAMES[s.channelId] === "money") {
+    const stage = document.createElement("div");
+    stage.className = "money-rain-stage";
 
+    const drops = [
+      ...Array(10).fill({ type: "coin" }),
+      ...Array(6).fill({ type: "ingot" }),
+      ...Array(7).fill({ type: "bill" }),
+    ];
+
+    drops.forEach((d) => {
+      const el = document.createElement("div");
+      el.className = `money-drop money-${d.type}`;
+      if (d.type === "bill") el.textContent = "$";
+
+      const dur = 1.4 + Math.random() * 2;
+      const delay = -(Math.random() * dur);
+      const x = Math.random() * 90 + 5;
+
+      el.style.cssText = `
+      left: ${x}%;
+      animation-duration: ${dur}s;
+      animation-delay: ${delay}s;
+      opacity: ${0.6 + Math.random() * 0.4};
+    `;
+
+      stage.appendChild(el);
+    });
+
+    card.appendChild(stage);
+  }
   return card;
 }
 
