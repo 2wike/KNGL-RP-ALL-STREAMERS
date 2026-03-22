@@ -880,17 +880,6 @@ const STREAMERS = [
     role: "",
   },
   {
-    id: "117",
-    channelName: "arzemien",
-    character: "Mehmet Verenağaç",
-    platform: "kick",
-    channelId: "arzemien",
-    profileUrl: "https://kick.com/arzemien",
-    avatar:
-      "https://imgproxy.mehmetcem32.workers.dev/?url=https%3A%2F%2Fcdn.discordapp.com%2Favatars%2F255806930541477888%2Fa_3a2887ebb36c1aeb1d0d700f81964941.png%3Fsize%3D256",
-    role: "",
-  },
-  {
     id: "114",
     channelName: "myres88",
     character: "Faik Korkmaz",
