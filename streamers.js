@@ -8,7 +8,7 @@ const STREAMERS = [
     profileUrl: "https://kick.com/eray",
     avatar:
       "https://files.kick.com/images/user/11096104/profile_image/conversion/da996ef7-742a-4b50-8a9d-15045762577e-fullsize.webp",
-    role: "İllegal Girişimci",
+    role: "Klüp Sahibi",
   },
   {
     id: "a2",
@@ -580,7 +580,7 @@ const STREAMERS = [
     profileUrl: "https://kick.com/pinaroma",
     avatar:
       "https://imgproxy.mehmetcem32.workers.dev/?url=https%3A%2F%2Fcdn.discordapp.com%2Favatars%2F943638225791090748%2F768a72bd09739fa6b3c2bc26fc554ebc.png%3Fsize%3D256",
-    role: "Lâl & Dövme Sanatçısı",
+    role: "LÂL & Dövme Sanatçısı",
   },
   {
     id: "227",
@@ -602,7 +602,7 @@ const STREAMERS = [
     profileUrl: "https://kick.com/ayberk",
     avatar:
       "https://imgproxy.mehmetcem32.workers.dev/?url=https%3A%2F%2Fcdn.discordapp.com%2Favatars%2F422452098131558414%2Fec5afdf86c1635af4daac67fc3d5421e.png%3Fsize%3D256",
-    role: "",
+    role: "Farmcı",
   },
   {
     id: "216",
@@ -1201,10 +1201,6 @@ const STREAMERS = [
 ];
 
 const PRIORITY = [
-  //Örnek:
-  //"alcaaf",
-  //"mhrmexe",
-  //"urganci",
   "eray",
   "pinaroma",
   "yyiido",
@@ -1226,6 +1222,7 @@ const FRAMES = {
   mrsrussell: "venom",
   nymvia: "sakura",
   ayberk: "money",
+  pinaroma: "abyss",
 };
 
 const CONTACT_EMAIL = "mehmetcem32@gmail.com";
