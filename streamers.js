@@ -1206,6 +1206,7 @@ const PRIORITY = [
   //"mhrmexe",
   //"urganci",
   "eray",
+  "pinaroma",
   "yyiido",
   "mrsrussell",
   "cappture",
