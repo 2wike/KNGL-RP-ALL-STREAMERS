@@ -1207,6 +1207,7 @@ const PRIORITY = [
   "mrsrussell",
   "cappture",
   "ayberk",
+  "aleyra",
   "ahmetturku",
 ];
 
