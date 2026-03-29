@@ -1205,6 +1205,7 @@ const PRIORITY = [
   "pinaroma",
   "yyiido",
   "mrsrussell",
+  "iezom",
   "cappture",
   "ayberk",
   "aleyra",
@@ -1224,6 +1225,7 @@ const FRAMES = {
   nymvia: "sakura",
   ayberk: "money",
   pinaroma: "abyss",
+  iezom: "lavender",
 };
 
 const CONTACT_EMAIL = "mehmetcem32@gmail.com";
