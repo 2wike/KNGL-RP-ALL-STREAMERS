@@ -33,6 +33,16 @@ const STREAMERS = [
     role: "",
   },
   {
+    id: "a4",
+    channelName: "blackattack",
+    character: "Tekin Kaya",
+    platform: "kick",
+    channelId: "blackattack",
+    profileUrl: "https://kick.com/blackattack",
+    avatar:"",
+    role: "Başkomiser",
+  },
+  {
     id: "444",
     channelName: "bigbat",
     character: "Ramazan Karakoyun",
@@ -1201,6 +1211,7 @@ const STREAMERS = [
 ];
 
 const PRIORITY = [
+  "blackattack",
   "eray",
   "pinaroma",
   "yyiido",
