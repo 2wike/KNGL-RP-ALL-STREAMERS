@@ -87,17 +87,6 @@ const STREAMERS = [
     role: "Kiralık Palyaço",
   },
   {
-    id: "428",
-    channelName: "sametplayer",
-    character: "Joshua Harrington",
-    platform: "kick",
-    channelId: "SametCagri",
-    profileUrl: "https://kick.com/SametCagri/",
-    avatar:
-      "https://imgproxy.mehmetcem32.workers.dev/?url=https%3A%2F%2Fcdn.discordapp.com%2Favatars%2F1388171606731395122%2F92ebe0e080e62ff89f218f535cdb3941.png%3Fsize%3D256",
-    role: "",
-  },
-  {
     id: "429",
     channelName: "yarensniper",
     character: "Jale Alev Tekin",
