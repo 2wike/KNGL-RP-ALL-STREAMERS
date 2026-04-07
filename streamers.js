@@ -231,7 +231,7 @@ const STREAMERS = [
   },
   {
     id: "351",
-    channelName: "ialeyra",
+    channelName: "Aleyra",
     character: "Elisa Soyer",
     platform: "kick",
     channelId: "aleyra",
